@@ -70,14 +70,44 @@
             <button data-modal-open class="btn " type="button">Замовити послугу</button>
             <div class="backdrop is-hidden " data-modal>
               <div class="modal ">
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing.
-                </p>
                 
                 <button class="btn-x" data-modal-close>
                   <svg class="btn-item" width="18px" height="18px">
                   <use href="./img/close-symbol-defs.svg#icon-close-black-18dp-2-1"></use>
                 </svg></button>
+                
+                
+                
+                <form>
+
+                  <div class="container-register">
+
+                     <h1>Залиште свої дані, ми вам перезвонимо</h1>
+                 
+                    <label>
+                       Ім'я
+                       <input type="text" name="username" autofocus />
+                     </label><br>
+                     <label>
+                      Телефон
+                      <input type="tel" name="telephone">
+                    </label><br>
+                     Пошта
+                       <input type="email" name="email">
+                     </label><br>
+                     <label>
+                       Коментар
+                       <textarea name="coments" rows="5" placeholder="Введіть текст"></textarea>
+                     </label>
+                   
+                    <p>Походжуюсь з розсилкою та приймаю<a href="#">Умови договору</a>.</p>
+                   
+                     <button type="submit"
+                   class="btn-register">Відправити</button>
+                  </div>
+                
+                </form>
+                
               </div>
             </div>
           </div>
