@@ -63,8 +63,21 @@
 
   .container-register {
     display: inline-block;
-    margin: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
     border: 2px solid tomato;
+    text-align: left;
+  }
+
+  .heading-register {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em; 
+    margin-bottom: 12px;
   }
   
   .btn-register {
@@ -81,6 +94,7 @@
     border-radius: 4px;
     margin: 0 auto;
     margin-top: 30px;
+    margin-bottom: 40px;
   }
 
   input[type=tel],
@@ -90,17 +104,25 @@
     display: inline-block;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    margin-top: 4px;
+    margin-bottom: 10px;
    }
 
    textarea[name=coments] {
     width: 100%;
     display: inline-block;
     border: 1px solid rgba(33, 33, 33, 0.2);
+    width: 448px;
+    height: 120px;
     border-radius: 4px;
+    margin-top: 4px;
    }
+
+
 
    a {
     color: #2196f3;
+    margin-left: 4px;
    }
 
    textarea[name=coments]:hover,
