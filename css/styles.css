@@ -75,6 +75,10 @@
     text-align: left;
   }
 
+  .form-modal {
+    padding-bottom: 40px;
+  }
+
   .heading-register {
     font-weight: 700;
     font-size: 20px;
