@@ -50,8 +50,8 @@
     height: 30px;
     border-radius: 50%;
     background: #FFFFFF;
-    border-color: #AFB1B8;
-     cursor: pointer;
+    border: 1px solid #AFB1B8;
+    cursor: pointer;
     top: 8px;
     right: 8px;
   }
@@ -61,13 +61,17 @@
     transform: translate(-10%);
   }
 
+  .btn-x:focus,
+  .btn-x:hover {
+    fill: #2196f3;
+  }
+
   .container-register {
     display: inline-block;
     margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 20px;
-    border: 2px solid tomato;
     text-align: left;
   }
 
@@ -93,8 +97,6 @@
     cursor: pointer;
     border-radius: 4px;
     margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 40px;
   }
 
   input[type=tel],
@@ -106,10 +108,11 @@
     border-radius: 4px;
     margin-top: 4px;
     margin-bottom: 10px;
+    padding: 14px 15px;
    }
 
-   textarea[name=E-mail],
-   textarea[name=coments] {
+   .textarea {
+    padding: 12px 16px;
     width: 100%;
     display: inline-block;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -117,6 +120,11 @@
     height: 120px;
     border-radius: 4px;
     margin-top: 4px;
+    font-size: 1.16;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+    outline: transparent;
    }
 
 
@@ -336,6 +344,12 @@ margin-top: 28px;
 
 .seti-footer-mail {
   margin-left: 93px;
+}
+
+.form-mail {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
 }
 
 .meil-icon {
@@ -1033,16 +1047,19 @@ ul {
   margin-left: 12px;
 }
 
-textarea[name=E-mail] {
+.e-mail-input {
   width: 100%;
+  padding: 15px 16px;
   display: inline-block;
   border: 1px solid rgba(33, 33, 33, 0.2);
   width: 358px;
   height: 50px;
   border-radius: 4px;
-  background-color: #2F303A;
+  background-color: inherit;
   border: 1px solid rgba(255, 255, 255, 0.2);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   color: tomato;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }

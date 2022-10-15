@@ -68,8 +68,8 @@
            
            
             <button data-modal-open class="btn " type="button">Замовити послугу</button>
-            <div class="backdrop is-hidden " data-modal>
-              <div class="modal ">
+            <div class="backdrop is-hidden" data-modal>
+              <div class="modal">
                 
                 <button class="btn-x" data-modal-close>
                   <svg class="btn-item" width="18px" height="18px">
@@ -77,27 +77,24 @@
                 </svg></button>
                 
                 
-                
+                <div class="container-register">
+                <p class="heading-register">Залиште свої дані, ми вам перезвонимо></p>
+
                 <form>
-
-                  <div class="container-register">
-
-                     <h1 class="heading-register">Залиште свої дані, ми вам перезвонимо</h1>
-                 
                     <label>
                        Ім'я
                        <input type="text" name="username" autofocus />
-                     </label><br>
+                     </label>
                      <label>
                       Телефон
                       <input type="tel" name="telephone">
-                    </label><br>
+                    </label>
                      Пошта
                        <input type="email" name="email">
-                     </label><br>
+                     </label>
                      <label>
                        Коментар
-                       <textarea name="coments" rows="5" placeholder="Введіть текст"></textarea>
+                       <textarea class="textarea" name="coments" rows="5" placeholder="Введіть текст"></textarea>
                      </label>
                     </div>
                     <p>Походжуюсь з розсилкою та приймаю<a class="dogovir" href="#">Умови договору</a>.</p>
@@ -105,7 +102,7 @@
                      <button type="submit"
                    class="btn-register">Відправити</button>
                   
-                
+                   
                 </form>
                 
               </div>
@@ -480,18 +477,21 @@
               </ul>
             </div>
             <div class="seti-footer-mail">
-              <h2 class="seti-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h2>
+            <form  class="form-mail">
               <label>
-                <textarea name="E-mail" rows="5" placeholder="E-mail"></textarea>
+                <p class="seti-title">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
+                <input type="E-mail" name="E-mail" class="e-mail-input" placeholder="E-mail">
               </label>
-            </div>
-              <div class="button-svg">
+
+              
                 <button type="button"
                 class="btn-mail">Підписатися
                 <svg class="meil-icon-svg" width="24" height="24">
                   <use class="meil-img" href="./img/LAST-symbol-defs.svg#icon-telegram-icon"></use>
                 </svg>
               </button>
+            </form>
+              
                
               </div>
               
