@@ -104,7 +104,7 @@ input[type="email"] {
 
 .icon-form {
   position: absolute;
-  top: 50%;
+  top: 16%;
   left: 12px;
   display: inline-block;
   transform: translateY(-50%);
