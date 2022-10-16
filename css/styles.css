@@ -71,10 +71,8 @@
     display: inline-block;
     text-align: left;
   }
+ 
 
-  .form-modal {
-    padding-bottom: 40px;
-  }
 
   .heading-register {
     font-weight: 700;
@@ -82,7 +80,7 @@
     line-height: 1.15;
     text-align: center;
     letter-spacing: 0.03em; 
-    margin-bottom: 12px;
+    margin-bottom: 30px;
   }
   
   .btn-register {
@@ -107,8 +105,15 @@
     display: inline-block;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    margin-top: 4px;
-    margin-bottom: 10px;
+    margin-bottom: 28px;
+   }
+
+   .icon-form {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    display: inline-block;
+    transform: translateY(-50%);
    }
 
    .textarea {
@@ -127,6 +132,26 @@
     outline: transparent;
    }
 
+   .label-i {
+    position: relative;
+   }
+
+  .form-label-koment {
+    position: absolute;
+    top: -730%;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: #757575;
+  } 
+
+ .form-label {
+  position: absolute;
+  font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: #757575;
+  }
 
 
    .dogovir {
@@ -156,8 +181,8 @@
     border-radius: 4px;
    }
 
-   input[type=tel]:focus,
-   input[type=tel]:hover {
+   input[type=tel]:hover,
+   input[type=tel]:focus {
     border: 1px solid #2196F3;
     border-radius: 4px;
    }
