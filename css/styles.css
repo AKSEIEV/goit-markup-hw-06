@@ -100,14 +100,18 @@ input[type="email"] {
   border-radius: 4px;
   margin-bottom: 28px;
   outline: transparent;
+  padding: 11px;
+  padding-left: 42px;
+  fill: currentColor;
 }
 
 .icon-form {
   position: absolute;
-  top: 16%;
-  left: 12px;
+  top: 31%;
+  left: 3%;
   display: inline-block;
   transform: translateY(-50%);
+  fill: currentColor;
 }
 
 .textarea {
@@ -115,7 +119,6 @@ input[type="email"] {
   width: 100%;
   display: inline-block;
   border: 1px solid rgba(33, 33, 33, 0.2);
-  width: 448px;
   height: 120px;
   border-radius: 4px;
   margin-top: 4px;
@@ -124,6 +127,8 @@ input[type="email"] {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
   outline: transparent;
+  padding: 12px 16px;
+  font-size: 12px;
 }
 
 .label-i {
@@ -132,7 +137,7 @@ input[type="email"] {
 
 .form-label-koment {
   position: absolute;
-  top: -730%;
+  top: -753%;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
@@ -140,7 +145,9 @@ input[type="email"] {
 }
 
 .form-label {
+  color: #757575;
   position: absolute;
+  top: -26%;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
@@ -153,6 +160,12 @@ input[type="email"] {
   margin-top: 20px;
   margin-bottom: 30px;
 }
+
+.icon-form:hover,
+.icon-form:focus {
+  fill: #2196f3;
+}
+
 textarea[name="E-mail"]:hover,
 textarea[name="E-mail"]:focus,
 textarea[name="coments"]:hover,
@@ -163,6 +176,7 @@ textarea[name="coments"]:focus {
 
 input[type="text"]:focus,
 input[type="text"]:hover {
+  fill: #2196f3;
   border: 1px solid #2196f3;
   border-radius: 4px;
 }
