@@ -163,14 +163,24 @@
   color: #757575;
 }
 
-.text-checkbox {
+.custom-checkbox {
   display: flex;
   margin-top: 20px;
   align-items: center;
   justify-content: center;
 }
 
-.checkbox {
+.icon-checkbox {
+  position: relative;
+  display: inline-block;
+  margin-right: 7px;
+  width: 16px;
+  height: 15px;
+  cursor: pointer;
+  border: 2px solid #212121;
+}
+
+.svg .checkbox {
   display: inline-block;
   margin-right: 7px;
   width: 16px;
