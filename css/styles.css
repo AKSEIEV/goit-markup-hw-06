@@ -636,7 +636,12 @@ img {
   color: var(--top-color);
 }
 
-/* --------------------------footer----------------- */
+/* --------------------------footer----------------- 
+--------------------------footer-----------------
+--------------------------footer-----------------
+--------------------------footer-----------------
+--------------------------footer-----------------
+--------------------------footer-----------------*/
 footer {
   background-color: var(--top-color);
 }
@@ -708,17 +713,6 @@ footer {
   margin: 0;
   list-style: none;
 }
-
-/* .tehnokryak::before {
-  position: absolute;
-  display: block;
-  content: "";
-  max-width: 100%;
-  top: 0;
-  left: 0;
-  background-color: rgba(33, 150, 243, 0.9);
-  opacity: 1;
-}  */
 
 .box {
   width: 370px;
@@ -980,10 +974,7 @@ ul {
   display: flex;
   width: 44px;
   height: 44px;
-  /* background-repeat: no-repeat;
-  background-position: center; */
   border-radius: 50%;
-  /* background-size: 20px; */
   align-items: center;
   justify-content: center;
   fill: #ffffff;
