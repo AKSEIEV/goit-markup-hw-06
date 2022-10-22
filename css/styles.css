@@ -164,8 +164,8 @@
 }
 
 .text-checkbox {
-  margin-top: 20px;
   display: flex;
+  margin-top: 20px;
   align-items: center;
   justify-content: center;
 }
@@ -176,6 +176,13 @@
   width: 16px;
   height: 15px;
   cursor: pointer;
+}
+
+.text-dogovir {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 .dogovir {
