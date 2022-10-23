@@ -1,4 +1,4 @@
-/* minus zagolovok neznay nawo */
+/* minus */
 .is-hidden {
   visibility: hidden;
   pointer-events: none;
@@ -213,8 +213,6 @@
 .dogovir {
   color: #2196f3;
   margin-left: 4px;
-  margin-top: 20px;
-  margin-bottom: 30px;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
